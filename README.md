@@ -1,10 +1,9 @@
 # Jenkins Pipeline Utilities
   
 Global Jenkins Pipeline Library with common utilities.  
-For basic instructions, see [Usage](#usage), [Prerequisites](#prerequisites) and [Configuration](#configuration) sections below.
+For basic instructions, see [Usage](#usage) and [Configuration](#configuration) sections below.
 
 Defines the following global [steps](#steps):
-* [`withCommonPipelineSettings`](#withcommonpipelinesettings)
 * [`withDockerEx`](#withdockerex)
 * [`waitForPort`](#waitforport)
 * [`waitForEndpoint`](#waitforendpoint)
@@ -15,11 +14,6 @@ Defines the following global [steps](#steps):
 * [`shEx`](#shex)
 * [`interactiveShell`](#interactiveshell)
 * [`interactiveGroovyShell`](#interactivegroovyshell)
-
-Also defines the following [properties](#properties):
-* [`discardOldBuildsProperty`](#discardoldbuildsproperty)
-
-For utilities for testing global pipeline libraries, see: [TESTING.md](TESTING.md)
 
 ## Usage
 
