@@ -1,4 +1,10 @@
-ADD NEW ITEM  
+## Step 1 - ADD PLUGIN
+> GitHub
+> Github-Integration
+> Blue Ocean
+
+
+## Step 2 - ADD NEW ITEM  
   
 Enter an item name: GitHubRepos  
 Type: Github Organization  
@@ -43,8 +49,7 @@ Script Pat: Jenkinsfile
 Others: default  
   
   
------------------------------------------------------------------------------  
-MANAGE JENKINS -- CONFIGURE SYSTEM  
+## Step 3 - MANAGE JENKINS -- CONFIGURE SYSTEM  
   
 Jenkins URL	http://51.158.181.245:8080/  
   
@@ -64,4 +69,3 @@ Source Code Management
 >>Credentials : select user which you entered repo configure (at over SSH section)  
 >>Behaviors  
 >>Add > Discover branches and Discover tags  
-  
