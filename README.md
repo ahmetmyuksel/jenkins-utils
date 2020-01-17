@@ -1,7 +1,7 @@
 ## Step 1 - ADD PLUGIN
-> GitHub
-> Github-Integration
-> Blue Ocean
+> GitHub  
+> Github-Integration  
+> Blue Ocean  
 
 
 ## Step 2 - ADD NEW ITEM  
@@ -9,10 +9,10 @@
 Enter an item name: GitHubRepos  
 Type: Github Organization  
   
-Display Name: GitHubRepos  
-GitHub Organization: Add your github account username and password  
-Owner: your username  
-Behaviors:  
+>Display Name: GitHubRepos  
+>GitHub Organization: Add your github account username and password  
+>Owner: your Github username  
+>Behaviors:  
   
 --Repository--  
 >Filter by name (with regular expression)  
@@ -42,16 +42,15 @@ Username: your jenkins username
 Private Key: Your ~/.ssh/id_rsa  
 Passphrase: If you have id_rsa file pass  
   
-  
 Pipeline Jenkinsfile  
-Script Pat: Jenkinsfile  
+Script Path: Jenkinsfile  
   
 Others: default  
-  
+
   
 ## Step 3 - MANAGE JENKINS -- CONFIGURE SYSTEM  
   
-Jenkins URL	http://51.158.181.245:8080/  
+Jenkins URL	http://$YOUR_DOMAIN:8080/  
   
 Global Pipeline Libraries  
 >Library   
