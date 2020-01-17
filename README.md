@@ -1,20 +1,17 @@
 ## Jenkins Configuration
-* [`Adding Plugin`](#add-plugin)  
-* [`Adding New Item`](#adding-new-item)  
-* [`Configuring System`](#configuring-system)  
+* [`Step 1 - Adding Plugin`](#add-plugin)  
+* [`Step 2 - Adding New Item`](#add-new-item)  
+* [`Step 3- Configuring System`](#configuring-system)  
 
 
+#### `ADD PLUGIN`  
 
-#### `Add Plugin`  
-Step 1 - Add Plugin  
 > GitHub  
 > Github-Integration  
 > Blue Ocean  
 
 
-#### `Adding New Item`  
-Step 2 - Add New Item
-
+#### `ADD NEW ITEM`  
 Enter an item name: GitHubRepos  
 Type: Github Organization  
   
@@ -57,8 +54,8 @@ Script Path: Jenkinsfile
 Others: default  
 
   
-#### `Configuring System`  
-Step 3 - MANAGE JENKINS -> CONFIGURE SYSTEM  
+#### `CONFIGURING SYSTEM`  
+Manage Jenkins --> Configure System  
   
 Jenkins URL	http://$YOUR_DOMAIN:8080/  
   
