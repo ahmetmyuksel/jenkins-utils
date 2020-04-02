@@ -1,6 +1,5 @@
 /**
-Lists all "real" users and shows the timestamp. User that have `LastGrantedAuthoritiesProperty` are "real" because
-they loged in at least one time.
+`LastGrantedAuthoritiesProperty` 
 WARNING: Timestamp is not the date of the last login. It is the last time granted authorities changed, e.g., user group.
 **/
 import org.acegisecurity.*
